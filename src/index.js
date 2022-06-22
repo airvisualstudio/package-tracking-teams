@@ -46,6 +46,9 @@ function letDeclaration() {
     console.log(num2); //OK 
     console.log(num3); //Compiler Error: Cannot find name 'num3'
     console.log(num4); //Compiler Error: Cannot find name 'num4'
+    console.log(num2); //OK 
+    console.log(num3); //Compiler Error: Cannot find name 'num3'
+    console.log(num4); //Compiler Error: Cannot find name 'num4'
 }
 
 letDeclaration();
